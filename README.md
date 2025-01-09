@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Elixir related to using `Process.exit/2` within `Enum.each/2`. The example code shows how prematurely terminating a process using `Process.exit/2` inside an `Enum.each` loop can prevent the loop from completing.
